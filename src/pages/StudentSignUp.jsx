@@ -10,7 +10,7 @@ const StudentSignUp = () => {
           Sign-up and apply for free
         </h2>
         <p className="mt-2 text-center text-2xl text-gray-600">
-          1,50,000+ companies hiring on IZackcareer
+          1,50,000+ companies hiring on Zackcareer
         </p>
       </div>
 

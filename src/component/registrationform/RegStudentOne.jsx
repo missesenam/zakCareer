@@ -124,15 +124,7 @@ const RegStudentOne = () => {
             Languages you know
           </label>
           <div className="flex flex-wrap gap-2">
-            {[
-              "English",
-              "Hindi",
-              "Telugu",
-              "Tamil",
-              "Marathi",
-              "French",
-              "Japanese",
-            ].map((lang) => (
+            {["English", "Twi", "Ewe", "Ga", "French"].map((lang) => (
               <button
                 key={lang}
                 type="button"
