@@ -68,7 +68,7 @@ const RegStudentOne = () => {
           </label>
           <div className="flex">
             <select className="px-3 py-2 border border-blue-300 rounded-l-md bg-blue-50 text-blue-700">
-              <option>+91</option>
+              <option>+233</option>
             </select>
             <input
               type="tel"
@@ -103,7 +103,7 @@ const RegStudentOne = () => {
             Gender
           </label>
           <div className="flex space-x-4">
-            {["Female", "Male", "Others"].map((gender) => (
+            {["Female", "Male"].map((gender) => (
               <label key={gender} className="inline-flex items-center">
                 <input
                   type="radio"
